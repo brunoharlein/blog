@@ -42,3 +42,16 @@ footer
 {
   background-color: #BB92AB;
 }
+.gauche
+{
+  float: left;
+}
+.droite
+{
+  float: right;
+}
+
+.txt
+{
+  text-align: left;
+}

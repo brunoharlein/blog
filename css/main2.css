@@ -1,9 +1,22 @@
-@font-face {
-  font-family: champagne
-  src: url(css/champagne.woff);
+/* color body/main and police  */
+body
+{
+  background-color: #AD7A99;
+  color: #EAE0CC;
 }
 
-h3
+/* color ol blog article */
+ol, .lire
 {
-  font-family: champagne;
+  background-color: #9E6F8C;
+}
+
+h1, .h2center, .pictmain, ol, .lire
+{
+  text-align: center;
+}
+
+.welcome
+{
+  text-decoration: underline;
 }

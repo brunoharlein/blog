@@ -1,0 +1,40 @@
+/* header color  */
+header
+{
+  background-color: #C19BB2;
+}
+
+
+/* color body/main and police  */
+/* page blog article */
+
+body
+{
+  background-color: #C39EB4;
+  color: #EAE0CC;
+}
+
+
+
+/* text and picture center */
+
+h1, .h2center, .pictmain, ol, .lire, .blog, p, h2
+{
+  text-align: center;
+}
+
+.welcome
+{
+  text-decoration: underline;
+}
+/* police nav  */
+li
+{
+  font-size: large;
+}
+
+/* insertion footer color */
+footer
+{
+  background-color: #BB92AB;
+}

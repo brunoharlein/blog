@@ -1,0 +1,44 @@
+/* header color  */
+header
+{
+  background-color: #C19BB2;
+}
+
+
+/* color body/main and police  */
+
+body
+{
+  background-color: #AD7A99;
+  color: #EAE0CC;
+}
+
+/* color ol blog article */
+
+ol, .lire
+{
+  background-color: #9E6F8C;
+}
+
+/* text and picture center */
+
+h1, .h2center, .pictmain, ol, .lire, .blog, p
+{
+  text-align: center;
+}
+
+.welcome
+{
+  text-decoration: underline;
+}
+/* police nav  */
+li
+{
+  font-size: large;
+}
+
+/* insertion footer color */
+footer
+{
+  background-color: #BB92AB;
+}

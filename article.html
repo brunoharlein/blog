@@ -11,7 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto|Shadows+Into+Light+Two" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic%7CRoboto%7CShadows+Into+Light+Two" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -19,26 +19,33 @@
 
 <body>
 
-  <!-- start header/template/section and nav -->
+  <!--
+  @@@@@@@@@@@@@@@@@@@start header/template/section and nav@@@@@@@@@@@@@@@@@@@@@
+  -->
   <!-- title insertion  -->
   <header>
 
     <section>
-    <h1> Blog sur le Kyudo par Bruno </h1>
-    <h2> Kyudo : La voie de l'arc </h2>
+      <h1 class="centertxt"> Blog sur le Kyudo par Bruno </h1>
+      <h2 class="centertxt"> Kyudo : La voie de l'arc </h2>
     </section>
 
   <!-- insert navigation -->
-    <nav>
-        <ul>
-        <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
-        <li><a href="article.html"><i class="far fa-newspaper"></i>Articles</a></li>
-        <li><a href="biography.html"><i class="fas fa-user"></i>Biographie de l'auteur</a></li>
-        <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+    <nav class=flex>
+        <ul class="flex">
+          <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
+          <li><a href="article.html"><i class="far fa-newspaper"></i>Articles</a></li>
+          <li><a href="biography.html"><i class="fas fa-user"></i>Biographie de l'auteur</a></li>
+          <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
         </ul>
     </nav>
+  <!-- end navigation -->
   </header>
-  <!-- end header -->
+  <!--
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@end header@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  -->
+
+
 
 
   <!-- start div article and picture  -->
@@ -61,18 +68,19 @@
   <!-- end div -->
 </div>
 
-  <!-- start footer -->
+<!-- start footer template and links -->
   <footer>
-
-  <h3> Merci de votre visite </h3>
-  <a href ="http://kyudo.fr"> site du CN Kyudo </a><br/ >
-  <a href ="http://www.ikyf.org"> International Kyudo Federation <a/><br/ >
-  <a href ="https://500px.com/brunoharlein"> Le plus grand photographe du monde <a/><br/ >
-  <a href ="https://twitter.com/TgGossart"> le formateur le plus patient au monde </a>
-
+    <h4>Merci de votre visite</h4>
+    <ul>
+      <li><a href="http://kyudo.fr"> site du CN Kyudo</a></li>
+      <li><a href="http://www.ikyf.org"> International Kyudo Federation</a></li>
+      <li><a href="https://500px.com/brunoharlein"> Le plus grand photographe du monde</a><li>
+      <li><a href="https://twitter.com/TgGossart"> le formateur le plus patient au monde</a></li>
+    </ul>
   </footer>
-  <!-- end footer -->
+<!-- end footer template and links -->
 
-  </body>
 
-  </html>
+</body>
+
+</html>

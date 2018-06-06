@@ -98,7 +98,7 @@ textarea {
    ========================================================================== */
 
 /*Start global Classes*/
-.centertitle
+.centertxt
 {
   text-align: center;
 }
@@ -112,9 +112,9 @@ textarea {
 
 
 /*Start common rules*/
-body
+header
 {
-  background-color: #F7B3E4
+  background-color: #F7B3E4;
 }
 
 ul
@@ -127,12 +127,12 @@ h1
 font-family: 'Shadows Into Light Two', cursive;
 }
 
-h2, h3
+p
 {
 font-family: 'Roboto', sans-serif;
 }
 
-p
+h2, h3
 {
 font-family: 'Nanum Gothic', sans-serif;
 }

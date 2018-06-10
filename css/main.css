@@ -86,7 +86,8 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browserupgrade {
+.browserupgrade
+{
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -98,44 +99,217 @@ textarea {
    ========================================================================== */
 
 /*Start global Classes*/
+
+/* ##################### center text, center img and flexbox ###################### */
 .centertxt
 {
   text-align: center;
 }
+
+.image
+{
+  display: flex;
+  justify-content: center;
+}
+
+.imagearticle
+{
+  display: flex;
+  justify-content: center;
+  background-color: #D1B3C4;
+}
+
 .flex
 {
   display: flex;
 }
 
+/* ####################### end center text, center img and flexbox ################## */
+
+/* table excel biography */
+table
+{
+  border-collapse: collapse;
+}
+
+td, th
+{
+  border: 1px solid black;
+}
+/* end tble excel biography */
+
+
+/* big border article  */
+.cadrearticle
+{
+  border: 27px #56515A solid;
+  background-color: #F1D6FA;
+}
+
+
+/* links main page */
+.btn
+{
+  background-color: #D1B3C4;
+  color: black;
+  padding: .2em 1em;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 2px 2px 0px black;
+}
+
+
+/* color font liknks */
+.link
+{
+ color: black;
+}
+
+.backgroundbio
+{
+  background-color: #D1B3C4;
+}
+
+
+/* center contact form */
+.contactcenter
+{
+  padding-left: 500px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #FEF9F6;
+}
+
+
+
+
 
 /*End global Classes*/
 
+/* ################################################################################ */
 
 /*Start common rules*/
-header
+
+/* H1 integration and placement */
+h1
 {
-  background-color: #F7B3E4;
+ font-family: 'Shadows Into Light Two', cursive;
+ margin-top: 0px;
+ padding-top: 15px;
 }
 
+/* header, footer background */
+header, footer
+{
+  background-color: #DDC4FF;
+}
+
+/* margin down footer */
+footer ul
+{
+  margin-bottom: 0px;
+}
+
+/* disinsertion of chips */
 ul
  {
   list-style-type: none;
-}
+ }
 
-h1
-{
-font-family: 'Shadows Into Light Two', cursive;
-}
+ /* link spacing */
+ nav ul li
+ {
+   margin-right: 9px;
+ }
+/* line 187/201 color function links */
+ a:active
+ {
+   background-color: #81A4CD;
+ }
 
-p
-{
-font-family: 'Roboto', sans-serif;
-}
+ a:visited
+ {
+   color: black;
+ }
 
-h2, h3
-{
-font-family: 'Nanum Gothic', sans-serif;
-}
+ a
+ {
+   font-family: 'Poor Story', cursive;
+   font-size: 20px;
+ }
+/* ################ end color function links ########################### */
+
+ /* background main */
+ main
+ {
+   background-color: #D1B3C4;
+ }
+
+ /* placement padding image */
+ main div img
+ {
+   padding-top: 15px;
+ }
+
+ /* borders home page / articles */
+ section article
+ {
+   border-top: 1px black solid;
+   padding-bottom: 10px;
+
+ }
+
+/* padding down section/article/p */
+ section article p
+ {
+   padding-bottom: 15px;
+ }
+
+/* placement p main page */
+ main section p
+ {
+   margin-bottom: 0px;
+   padding-bottom: 15px;
+ }
+
+ /* font p, h2, h3, h4 (line 238/255) */
+ p
+ {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+ }
+
+ h2, h3
+ {
+  font-family: 'Nanum Gothic', sans-serif;
+ }
+
+ h4
+ {
+  padding-top: 10px;
+  padding-left: 40px;
+  margin-top: 0px;
+  font-family: 'Nanum Gothic', sans-serif;
+ }
+ /* ############# end font ################ */
+
+ /* bio table center */
+ table
+ {
+  margin:auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+ }
+
+
+
+
+
+
+
+
+
+
 
 
 

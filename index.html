@@ -11,7 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic%7CRoboto%7CShadows+Into+Light+Two" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic%7CPoor+Story%7CRoboto%7CShadows+Into+Light+Two" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -50,10 +50,11 @@
 
   <!-- start main pict and presentation txt  -->
     <main>
-      <img src="img/flechemain.jpg" alt="fleche page menu">
+      <!-- balise html pour centrer image -->
+      <div class="image"><img src="img/flechemain.jpg" alt="fleche page menu"></div>
       <section>
         <h2 class="centertxt">Bienvenue sur mon blog consacré au Kyudo.</h2>
-        <p>Je vais dans la limite du possible mettre 1 article par semaine.
+        <p class="centertxt">Je vais dans la limite du possible mettre 1 article par semaine.
         De la théorie, de la pratique, des questions, je vais partager avec vous le plus de connaissances possible.
         Je vous souhaite une bonne lecture.</p>
       </section>
@@ -62,26 +63,26 @@
 
 
   <!-- article section -->
-      <section>
+      <section class="cadrearticle">
         <h2 class="centertxt">Lecture du moment</h2>
-      <div>
+      <div class="centertxt">
         <article>
           <h3>Shin - Vérité.</h3>
           <p>La recherche de la verité a été le but de toute les cultures et de toutes les époques.
           On peut dire que la recherche d'une définition ou au moins d'une intuition de ce qu'est la vérité est le but de toute les disciplines religieuses et philosophiques.</p>
-          <a href="article.html">lire la suite</a>
+          <a class="btn" href="article.html">lire la suite</a>
         </article>
         <article>
           <h3>Zen - Bonté.</h3>
           <p>La bonté, dans le Kyudo, est envisagée comme une valeur normal.
              On acquiert, à travers la discipline de l'étiquette (Rei), une maitrise de soi qui élimine les conflits.</p>
-          <a href="article.html">lire la suite</a>
+          <a class="btn" href="article.html">lire la suite</a>
         </article>
         <article>
           <h3>Bi - Beauté.</h3>
           <p> Ce qui est beau comble les sens. Accéder à la beauté représente le but suprême de tous les arts.
               C'est l'aspect de la vérité s'exprimant à travers la bonté.</p>
-          <a href="article.html">lire la suite</a>
+          <a class="btn" href="article.html">lire la suite</a>
         </article>
       </div>
       </Section>
@@ -92,11 +93,13 @@
     <footer>
       <h4>Merci de votre visite</h4>
       <ul>
-        <li><a href="http://kyudo.fr"> site du CN Kyudo</a></li>
-        <li><a href="http://www.ikyf.org"> International Kyudo Federation</a></li>
-        <li><a href="https://500px.com/brunoharlein"> Le plus grand photographe du monde</a><li>
-        <li><a href="https://twitter.com/TgGossart"> le formateur le plus patient au monde</a></li>
+        <li><a class="link" href="http://kyudo.fr"> site du CN Kyudo</a></li>
+        <li><a class="link" href="http://www.ikyf.org"> International Kyudo Federation</a></li>
+        <li><a class="link" href="https://500px.com/brunoharlein"> Le plus grand photographe du monde</a><li>
+        <li><a class="link" href="https://twitter.com/TgGossart"> le formateur le plus patient au monde</a></li>
       </ul>
+
+
     </footer>
   <!-- end footer template and links -->
 
